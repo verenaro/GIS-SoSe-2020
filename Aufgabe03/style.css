@@ -1,9 +1,5 @@
-body {
-background-image: url(bg.png);
-background-size: cover;
-font-family:Arial, Helvetica, sans-serif;
-}
-#page {
+
+body{
     background-image: url(bg.png);
     background-size: cover;
     font-family: Verdana, Arial, Helvetica, sans-serif;
