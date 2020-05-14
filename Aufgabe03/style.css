@@ -1,5 +1,5 @@
 h1 {color: green;
 font-family: Arial, Helvetica,sans-serif };
 body {
-background: url(bg.png) no-repeat center center fixed;
+background: #ffffff url(bg.png) no-repeat center center fixed;
 background-size: cover; }
