@@ -3,11 +3,18 @@ background-image: url(bg.png);
 background-size: cover;
 font-family:Arial, Helvetica, sans-serif;
 }
-.myDiv {
-width: 800px;
-vertical-align: middle;
-}
-
+#page {
+    background-image: url(bg.png);
+    background-size: cover;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 800px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -100px;
+    }
 
 
 
