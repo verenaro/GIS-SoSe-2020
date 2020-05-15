@@ -10,7 +10,7 @@ body {
     margin-right: auto;
 
 }
-nav{
+.nav a{
 position: sticky;  
 top: 0px;
 font-family: sans-serif;
@@ -22,16 +22,17 @@ width: 200px;
 height: 40%;
 left: 50%;
 padding: 5px 10px 0px 10px;
+}
+.nav a:hover{
+border-radius: 20px;
+background-color:darkslategray;
+}
+.nav a.active{
+border-radius: 20px;
+background-color: darkslategray;
+}
 
-}
-.halbkreis {
-margin-top: -600px;
-margin-left: 20%;
-width: 900px;
-height: 900px;
-border-radius: 50%;
-background-color:lightsteelblue;
-}
+
 #header {
 	margin: 0px;
 	height: 156px;
