@@ -32,8 +32,9 @@ height: 900px;
 border-radius: 50%;
 background-color:lightsteelblue;
 }
-#center {
-	text-align: center;
+#header {
+	margin: 0px;
+	height: 156px;
 
 
 
