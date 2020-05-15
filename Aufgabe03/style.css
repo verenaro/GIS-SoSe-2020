@@ -20,7 +20,7 @@ nav {
     
   }
   
-  a {
+  nav a {
    display: inline;
    color: white;
    text-align: center;
@@ -30,7 +30,10 @@ nav {
 nav a:hover{
 background-color: lightskyblue;
 }
+
 nav a.active{
+
+
     background-color: darkblue;
     color: white;;
 }
