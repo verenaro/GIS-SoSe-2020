@@ -10,14 +10,27 @@ body {
 }
 nav {
     position: sticky;
-    float:right;
-    display: block;
-    top: 0px;
     list-style-type: none;
     margin: 0;
     padding: 8px;
+    float: right;
     background-color: lightgray;
+    overflow: hidden;
+  
+    
   }
+  
+  a {
+   display: inline;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   padding: 8px 6px;
+  }
+nav a:hover{
+background-color: lightskyblue;
+}
+
 
  
 
