@@ -24,15 +24,19 @@ left: 50%;
 padding: 5px 10px 0px 10px;
 
 }
-.halbkreis{
-    margin-top: -600px;
-    margin-left: 20%;
-    height: 900px;
-    width: 900px;
-    border-radius: 50%;
+.circle {
+    margin-top: -100px;
+    width: 1000px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 600px 600px 0px 0px;
+    background-color:lightsteelblue;
     transform-origin: center;
-    background-color: lightsteelblue;
-}
+    transform: rotate(180deg);
+    position: relative;
+    z-index: 0;
+    }
 
 
 
