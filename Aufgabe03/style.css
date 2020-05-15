@@ -29,7 +29,7 @@ nav {
    padding: 8px 6px;
   }
 nav a:hover{
-background-color: lightskyblue;
+background-color: gray;
 }
 
 nav a.active{
