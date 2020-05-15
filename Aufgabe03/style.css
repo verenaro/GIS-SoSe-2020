@@ -32,7 +32,7 @@ background-color: lightskyblue;
 }
 
 nav a.active{
-    background-color: darkblue;
+    background-color: darkslategray;
     color: white;
 }
 .header {
