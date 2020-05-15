@@ -45,7 +45,7 @@ nav a.active{
     }
     .icon-bar {
         width: 100%;
-        background-color: #555;
+        background-color:lightgray;
         overflow: auto;
       }
       
@@ -60,12 +60,10 @@ nav a.active{
       }
       
       .icon-bar a:hover {
-        background-color: #000;
+        background-color:rosybrown;
       }
       
-      .active {
-        background-color: #4CAF50;
-      }
+    
 
 
 
