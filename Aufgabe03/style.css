@@ -40,8 +40,14 @@ nav a.active{
 nav a:hover:not(.active) {
     background-color: lightskyblue;
     color: white;
-
-
+}
+.header {
+    padding: 35px;
+    text-align: center;
+    background: lightgray;
+    color: grey;
+    font-size: 30px;
+    }
 
  
 
@@ -60,4 +66,3 @@ nav a:hover:not(.active) {
 
 
 
-}
