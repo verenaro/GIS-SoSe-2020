@@ -62,14 +62,7 @@ nav a.active{
       .icon-bar a:hover {
         background-color:rosybrown;
       }
-      form {
-        width: 600px;
-        height: 280px;
-        padding: 40px;
-        padding-top: 0px;
-        border: 2px solid rosybrown;
-        margin-left: 25%;
-        }
+     
       
     
 
