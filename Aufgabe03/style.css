@@ -30,8 +30,8 @@ margin-left: 20%;
 width: 900px;
 height: 900px;
 border-radius: 50%;
-border-bottom-right-radius: 30;
-border-bottom-left-radius: 30;
+border-bottom: right 30;
+border-bottom: left 30;
 background-color:lightsteelblue;
 }
 
