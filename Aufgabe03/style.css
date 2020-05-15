@@ -68,8 +68,8 @@ nav a.active{
         padding: 40px;
         padding-top: 0px;
         border: 3px solid rosybrown;
-        margin-left: 25%;
-        align-self: middle;
+        margin-left: auto;
+        margin-right: auto;
         }
       
     
