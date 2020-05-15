@@ -32,8 +32,11 @@ background-color: lightskyblue;
 }
 nav a.active{
     background-color: darkblue;
-    color: lightskyblue;
+    color: white;;
 }
+nav a:hover:not(.active) {
+    background-color: lightskyblue;
+    color: white;
 
 
 
