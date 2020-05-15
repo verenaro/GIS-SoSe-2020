@@ -10,11 +10,13 @@ body {
 }
 nav {
     position: sticky;
+    float:right;
     top: 0px;
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
+
  
 
 
