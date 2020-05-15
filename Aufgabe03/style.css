@@ -30,6 +30,7 @@ padding: 5px 10px 0px 10px;
     height: 900px;
     width: 900px;
     border-radius: 50%;
+    transform-origin: center;
     background-color: lightsteelblue;
 }
 
