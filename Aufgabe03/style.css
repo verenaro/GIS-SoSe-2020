@@ -8,7 +8,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-ul {
+nav {
     position: sticky;
     top: 0px;
     list-style-type: none;
