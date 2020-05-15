@@ -30,6 +30,10 @@ nav {
 nav a:hover{
 background-color: lightskyblue;
 }
+nav a.active{
+    background-color: darkblue;
+    color: lightskyblue;
+}
 
 
  
