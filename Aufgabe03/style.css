@@ -18,6 +18,7 @@ color: grey;
 background-color: lightgray;
 padding: 8px 12px;
 }
+
 .nav a:hover{
 border-radius: 20px;
 background-color:darkslategray;
@@ -29,9 +30,6 @@ background-color: darkslategray;
 
 
 
-#header {
-	margin: 0px;
-	height: 156px;
 
 
 
@@ -45,4 +43,3 @@ background-color: darkslategray;
 
 
 
-}
