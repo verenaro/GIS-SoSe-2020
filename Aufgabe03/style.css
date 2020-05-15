@@ -24,7 +24,15 @@ left: 50%;
 padding: 5px 10px 0px 10px;
 
 }
-.halbkreis{}
+.halbkreis{
+    margin-top: -500px;
+    margin-left: 30%;
+    height: 700px;
+    width: 700px;
+    border-radius: 60%;
+    background-color: lightsteelblue;
+}
+
 
 
 
