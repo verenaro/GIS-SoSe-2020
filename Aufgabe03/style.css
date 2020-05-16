@@ -3,7 +3,7 @@ body {
     background-repeat: repeat;
     width: 800px;
     font-family: sans-serif;
-    font-size: 5;
+    font-size: 5px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -22,8 +22,8 @@ nav {
   }
   
   nav a {
-   display: right;
-   color: white;
+   float: right;
+   color:pink;
    text-align: center;
    text-decoration: none;
    padding: 8px 6px;
@@ -75,7 +75,7 @@ form {
 p{
   color: grey;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3;
+  font-size: 3px;
   width: 800px;
 }
 
