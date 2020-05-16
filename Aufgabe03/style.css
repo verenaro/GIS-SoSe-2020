@@ -62,17 +62,27 @@ nav a.active{
       .icon-bar a:hover {
         background-color:rosybrown;
       }
-      form {
-        width: 600px;
-        height: 280px;
-        padding: 40px;
-        padding-top: 0px;
-        border: 3px solid rosybrown;
-        margin-left: auto;
-        margin-right: auto;
-        }
+form {
+  width: 600px;
+  height: 280px;
+  padding: 40px;
+  padding-top: 0px;
+  border: 3px solid rosybrown;
+  margin-left: auto;
+  margin-right: auto;
+}
 p{
-color: grey}
+  color: grey}
+
+#Sternenhimmel {
+  color: rosybrown;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+#notmine {
+color: rosybrown;
+font-family: Arial, Helvetica, sans-serif
+}
+
       
     
 
