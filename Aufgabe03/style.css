@@ -37,6 +37,7 @@ nav a.active{
     color: white;
 }
 .header {
+    padding: 100%;
     text-align: center;
     background: lightgray;
     color:rosybrown;
