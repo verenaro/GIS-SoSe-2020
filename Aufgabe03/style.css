@@ -78,16 +78,21 @@ p{
 
 
 h1{
-color: rosybrown;
+color: lightsteelblue;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+color: lightsteelblue;
 font-family: Arial, Helvetica, sans-serif;
 }
 
 #Sternenhimmel {
-  color: rosybrown;
+  color: lightpink;
   font-family: Arial, Helvetica, sans-serif;
   }
 #notmine {
-color: rosybrown;
+color:lightpink;
 font-family: Arial, Helvetica, sans-serif
 }
 
