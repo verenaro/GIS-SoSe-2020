@@ -37,12 +37,12 @@ nav a.active{
     color: white;
 }
 .header {
-    padding: 40px;
+    padding: 30px;
     text-align: center;
-    background: black;
+    background: lightgray;
     color:rosybrown;
     font-size: 20px;
-    width: 100%;
+    width: auto;
 
     }
     .icon-bar {
