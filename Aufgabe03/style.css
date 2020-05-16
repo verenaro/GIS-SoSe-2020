@@ -42,7 +42,7 @@ nav a.active{
     background: lightgray;
     color:rosybrown;
     font-size: 30px;
-    
+    width:800px;
     }
     .icon-bar {
         width: 100%;
