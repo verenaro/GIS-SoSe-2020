@@ -1,30 +1,31 @@
 body{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 
 .header {
-    padding: 30px;
+    height: 300px;
+    width: 100%;
     text-align: center;
     background: grey;
     color:rosybrown;
 }
-.header img {
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
+.logo {
+float: left;
+position: top;
+}
+
   
   .header h1 {
     position: center;
-    top: 10px;
-    left: 10px;
+
   }
 
 nav {
     position: sticky;
     list-style-type: none;
     margin: 0;
-    padding: 8px;
+    padding: 0px;
     float: right;
     background-color: lightgray;
     overflow: hidden;
@@ -36,7 +37,7 @@ nav {
    color: white;
    text-align: center;
    text-decoration: none;
-   padding: 8px 6px;
+   padding: 0px 0px;
   }
 nav a:hover{
 background-color: gray;
