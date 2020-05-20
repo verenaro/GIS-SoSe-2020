@@ -10,4 +10,7 @@ body{
     font-size: 35px;
     width: auto;
 }
+.logo{
+    float: left;
+}
 
