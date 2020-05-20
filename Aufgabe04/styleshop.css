@@ -10,8 +10,8 @@ body{
 }
 .header img {
     position: absolute;
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
   
   .header h1 {
