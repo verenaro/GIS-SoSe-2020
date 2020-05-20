@@ -13,4 +13,7 @@ body{
 img{
     float: left;
 }
+.navi img{
+    text-align: left;
+}
 
