@@ -18,7 +18,7 @@ body{
     left: 10px;
   }
 
-  nav {
+nav {
     position: sticky;
     list-style-type: none;
     margin: 0;
@@ -26,7 +26,6 @@ body{
     float: right;
     background-color: lightgray;
     overflow: hidden;
-  
     
   }
   
