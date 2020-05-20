@@ -11,3 +11,15 @@ img{
 margin-left:auto; 
 margin-right:auto;
 }
+
+nav {
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    float: right;
+    background-color: lightgray;
+    overflow: hidden;
+  
+    
+  }
