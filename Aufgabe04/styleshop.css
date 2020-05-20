@@ -18,30 +18,33 @@ body{
     left: 10px;
   }
 
-  #navbar {
+  nav {
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    float: right;
+    background-color: lightgray;
     overflow: hidden;
-    background-color: #333;
+  
+    
   }
   
-  #navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  nav a {
+   float: right;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   padding: 8px 6px;
   }
-  
-  #navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  #navbar a.active {
-    background-color: #4CAF50;
+nav a:hover{
+background-color: gray;
+}
+
+nav a.active{
+    background-color: rosybrown;
     color: white;
-  }
+}
   
 
   
