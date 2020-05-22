@@ -1,55 +1,62 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
+.header{
+    padding: 40px;
+    background: lightgray;
+    color:lightsteelblue;
+    font-size: 20px;
+    width: auto;
+
+    }  
+.header h1{
+    color: lightsteelblue;
+    text-align:center;
+    margin-right: auto;
+} 
+.header img{
+position: absolute;
+top: 10px;
+} 
+
+.header i{
+text-align: center;
 }
 
-.header {
-    height: 300px;
-    width: 100%;
-    text-align: center;
-    background: grey;
-    color:rosybrown;
-}
-.logo {
-float: left;
-position: top;
-}
-
-  
-  .header h1 {
-    position: center;
-
-  }
-
-nav {
-    position: sticky;
-    list-style-type: none;
-    margin: 0;
-    padding: 0px;
+nav a {
     float: right;
-    background-color: lightgray;
-    overflow: hidden;
-    
-  }
-  
-  nav a {
-   float: right;
-   color: white;
-   text-align: center;
-   text-decoration: none;
-   padding: 0px 0px;
-  }
-nav a:hover{
-background-color: gray;
-}
-
-nav a.active{
-    background-color: rosybrown;
     color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 6px;
+   }
+ nav a:hover{
+ background-color: gray;
+ }
+ 
+ nav a.active{
+     background-color: lightsteelblue;
+     color: white;
+  
 }
-  
+.meineprodukte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.meineprodukte2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+.pflanze {
+    width: 20%;
+    height: 350px;
+    text-align: center;
+    margin-top: 4%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    border-style: dotted;
+    border-color: rosybrown;
+    border: 1;
+    float: left;
 
-  
-
-
-
+}
