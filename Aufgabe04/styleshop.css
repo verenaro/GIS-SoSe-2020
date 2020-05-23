@@ -28,7 +28,7 @@ nav a {
     color: rosybrown;
     text-align: center;
     text-decoration: none;
-    padding: 8px 6px;
+    padding: 8px 30px; 
    }
  nav a:hover{
  background-color: gray;
@@ -114,7 +114,7 @@ body{
         color: rosybrown;
         text-align: center;
         text-decoration: none;
-        padding: 8px 6px;
+        padding: 8px 30px;
        }
      nav a:hover{
      background-color: gray;
@@ -199,7 +199,7 @@ body{
         color: rosybrown;
         text-align: center;
         text-decoration: none;
-        padding: 8px 6px;
+        padding: 8px 20px;
        }
      nav a:hover{
      background-color: gray;
