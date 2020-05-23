@@ -175,8 +175,7 @@ body{
         margin-right: auto;
     } 
     .header img{
-    top: 10px;
-    left: 0;
+    text-align: center;
     } 
     
     .header i{
