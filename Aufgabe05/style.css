@@ -94,195 +94,178 @@
     body{
         background-color: whitesmoke;
     }
-   
+ /*i Pad*/
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .header{
+        padding: 60px;
+        background: lightgray;
+        color:lightsteelblue;
+        font-size: 20px;
+        width: auto;
     
-    /*i Pad*/
-    @media screen and (min-width: 600px) and (max-width: 1024px){
-        .header{
-            padding: 60px;
-            background: lightgray;
-            color:lightsteelblue;
-            font-size: 20px;
-            width: auto;
+        }  
+    .header h1{
+        color: rosybrown;
+        text-align:center;
+        margin-right: auto;
+    } 
+    img[alt=logo]{
+        position: absolute;
+        top: 10px;
+        left: 0;  
+    } 
+    
+    .header i{
+    text-align: center;
+    }
+    
+    nav a {
+        float: right;
+        color: rosybrown;
+        text-align: center;
+        text-decoration: none;
+        padding: 8px 30px;
+       }
+     nav a:hover{
+     background-color: gray;
+     }
+     
+     nav a.active{
+         background-color: lightsteelblue;
+         color: white;
+      
+    }
+    .meineprodukte{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         
-            }  
-        .header h1{
-            color: rosybrown;
-            text-align:center;
-            margin-right: auto;
-        } 
-        .header h2{
-            color:grey;
-            text-align: center;
-            margin-right: auto;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
+    }
+    .meineprodukte div {
+        width: 400px;
+        height: 300px;
+        margin: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+        border-radius: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .meineprodukte div img{
+       height: 150px;
+       width: 150px;
+    }
+    div h2{
+        color:rosybrown;
+    }
+    div p{
+        color:grey;
+    }
+    div>button{
+        border-color: rosybrown;
+    }
+    .zimmerpflanzen h1{
+        color: grey;
+        text-align: center;
+    }
+    i{
+        color: black;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    body{
+        background-color: whitesmoke;
+    }
+    
+    }
+    /*i Phone*/
+@media screen and (max-width: 600px){
+    .header{
+        padding: 60px;
+        background: lightgray;
+        color:lightsteelblue;
+        font-size: 20px;
+        width: auto;
+    
+        }  
+    .header h1{
+        color: rosybrown;
+        text-align:center;
+        margin-right: auto;
+    }
+        
         img[alt=logo]{
-            position: absolute;
-            top: 10px;
-            left: 0;  
-        } 
-        
-        .header i{
         text-align: center;
         }
-        
-        nav a {
-            float: right;
-            color: rosybrown;
-            text-align: center;
-            text-decoration: none;
-            padding: 8px 30px;
-           }
-         nav a:hover{
-         background-color: gray;
-         }
-         
-         nav a.active{
-             background-color: lightsteelblue;
-             color: white;
-          
-        }
-        .meineprodukte{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-        }
-        .meineprodukte {
-            width: 400px;
-            height: 300px;
-            margin: 5px;
-            margin-bottom: 10px;
-            text-align: center;
-            border-radius: 3px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .meineprodukte div img{
-           height: 150px;
-           width: 150px;
-        }
-        .meineprodukte div p{
-            color:grey;
-        }
-        .meineprodukte div h3{
-            color: rosybrown;
-        }
-        .meineprodukte div h4{
-            color: grey;
-        }
-        
-        div>button{
-            border-color: rosybrown;
-        }
-        .meineprodukte h1{
-            color: grey;
-            text-align: center;
-        }
-        i{
-            color: black;
-        }
-        nav{
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
-        body{
-            background-color: whitesmoke;
-        }
-        
+    .header i{
+    text-align: center;
+    }
     
-        /*i Phone*/
-    @media screen and (max-width: 600px){
-        .header{
-            padding: 60px;
-            background: lightgray;
-            color:lightsteelblue;
-            font-size: 20px;
-            width: auto;
-        
-            }  
-        .header h1{
-            color: rosybrown;
-            text-align:center;
-            margin-right: auto;
-        }
-        .header h2{
-            color:grey;
-            text-align: center;
-            margin-right: auto;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-            
-            img[alt=logo]{
-            text-align: center;
-            }
-        .header i{
+    nav a {
+        float: right;
+        color: rosybrown;
         text-align: center;
-        }
+        text-decoration: none;
+        padding: 8px 20px;
+       }
+     nav a:hover{
+     background-color: gray;
+     }
+     
+     nav a.active{
+         background-color: lightsteelblue;
+         color: white;
+      
+    }
+    .meineprodukte{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         
-        nav a {
-            float: right;
-            color: rosybrown;
-            text-align: center;
-            text-decoration: none;
-            padding: 8px 20px;
-           }
-         nav a:hover{
-         background-color: gray;
-         }
-         
-         nav a.active{
-             background-color: lightsteelblue;
-             color: white;
-          
-        }
-        .meineprodukte{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            
-        }
-        .meineprodukte {
-            width: 400px;
-            height: 300px;
-            margin: 5px;
-            margin-bottom: 10px;
-            text-align: center;
-            border-radius: 3px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .meineprodukte div img{
-           height: 150px;
-           width: 150px;
-        }
-        .meineprodukte div p{
-            color:grey;
-        }
-        .meineprodukte div h3{
-            color: rosybrown;
-        }
-        .meineprodukte div h4{
-            color: grey;
-        }
-        
-        div>button{
-            border-color: rosybrown;
-        }
-        .meineprodukte h1{
-            color: grey;
-            text-align: center;
-        }
-        i{
-            color: black;
-        }
-        nav{
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
-        body{
-            background-color: whitesmoke;
-        }
-        }}
+    }
+    .meineprodukte div {
+        width: 400px;
+        height: 300px;
+        margin: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+        border-radius: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .meineprodukte div img{
+       height: 150px;
+       width: 150px;
+    }
+    div h2{
+        color:rosybrown;
+    }
+    div p{
+        color:grey;
+    }
+    div>button{
+        border-color: rosybrown;
+    }
+    .zimmerpflanzen h1{
+        color: grey;
+        text-align: center;
+    }
+    i{
+        color: black;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    body{
+        background-color: whitesmoke;
+    }
+    
+    
+    }
+
+ 

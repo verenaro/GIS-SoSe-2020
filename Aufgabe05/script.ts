@@ -76,7 +76,6 @@ namespace Zimmerpflanzen {
             document.getElementById("Zimmerpflanzen-produkt" + _index)?.appendChild(_newButton);
         }
     
-    
 }
 namespace Außenpflanzen {
     interface AußenpflanzenProdukte {
