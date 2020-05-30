@@ -147,21 +147,6 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
-            
-        }
-        .meineprodukte div {
-            width: 400px;
-            height: 300px;
-            margin: 5px;
-            margin-bottom: 10px;
-            text-align: center;
-            border-radius: 3px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .meineprodukte div img{
-           height: 150px;
-           width: 150px;
         }
         .meineprodukte {
             width: 400px;
@@ -185,13 +170,12 @@
         }
         .meineprodukte div h4{
             color: grey;
+        }
         
-        }
-        }
         div>button{
             border-color: rosybrown;
         }
-        .zimmerpflanzen h1{
+        .meineprodukte h1{
             color: grey;
             text-align: center;
         }
@@ -259,20 +243,6 @@
             justify-content: space-evenly;
             
         }
-        .meineprodukte div {
-            width: 400px;
-            height: 300px;
-            margin: 5px;
-            margin-bottom: 10px;
-            text-align: center;
-            border-radius: 3px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .meineprodukte div img{
-           height: 150px;
-           width: 150px;
-        }
         .meineprodukte {
             width: 400px;
             height: 300px;
@@ -296,11 +266,11 @@
         .meineprodukte div h4{
             color: grey;
         }
-        }
+        
         div>button{
             border-color: rosybrown;
         }
-        .zimmerpflanzen h1{
+        .meineprodukte h1{
             color: grey;
             text-align: center;
         }
@@ -315,8 +285,4 @@
         body{
             background-color: whitesmoke;
         }
-        
-        
-        
-    
-        
+        }}
