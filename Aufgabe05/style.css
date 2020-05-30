@@ -240,32 +240,44 @@
        height: 150px;
        width: 150px;
     }
-    div h2{
-        color:rosybrown;
-    }
-    div p{
+}
+    .meineprodukte div p{
         color:grey;
     }
-    div>button{
-        border-color: rosybrown;
+    .meineprodukte div h3{
+        color: rosybrown;
     }
-    .zimmerpflanzen h1{
-        color: grey;
+    .header h2{
+        color:grey;
         text-align: center;
-    }
+        margin-right: auto;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    .meineprodukte div h4{
+    color: grey;
+}
+
+    div>button{
+    border-color: rosybrown;
+}
+    .meineprodukte h1{
+    color: grey;
+    text-align: center;
+}
     i{
-        color: black;
-    }
+    color: black;
+}
     nav{
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
     body{
-        background-color: whitesmoke;
+    background-color: whitesmoke;
+    
     }
     
     
-    }
+    
 
  
