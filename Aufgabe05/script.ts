@@ -6,12 +6,11 @@ namespace Zimmerpflanzen {
         name: string;
         beschreibung: string;
         preis: string;
-
     }
     let monstera: ZimmerpflanzenProdukte = {
         bild: "Monstera.jpg",
         name: "Monstera",
-        beschreibung: "darf nicht fehlen",
+        beschreibung: "darf in keinem Wohnzimmer fehlen",
         preis: "17 "
     };
     let sansevieriaZeylanica: ZimmerpflanzenProdukte = {
@@ -47,30 +46,30 @@ namespace Zimmerpflanzen {
     let zimmerpflanzenProdukte: ZimmerpflanzenProdukte[] = [monstera, sansevieriaZeylanica, spathiphyllum, zamioculas, dieffenbachia, strahlenaralie]; 
     //Produkte einschleifen
     for (let _index: number = 0; _index < zimmerpflanzenProdukte.length; _index++) {
-        //Div erzeugen
+        //Div 
             let _newDiv: HTMLDivElement = document.createElement("div");
             _newDiv.setAttribute("class", "Zimmerpflanzen-div");
             _newDiv.setAttribute("id", "Zimmerpflanzen-produkt" + _index);
             document.getElementById("Zimmerpflanzen")?.appendChild(_newDiv);
-         //Produktbezeichnung hinzufügen
+         //Produktname 
             let _newH3: HTMLHeadingElement = document.createElement("h3");
             _newH3.innerHTML = zimmerpflanzenProdukte[_index].name;
             document.getElementById("Zimmerpflanzen-produkt" + _index)?.appendChild(_newH3);
-        //Produktbild hinzufügen
+        //Bild der Pflanze einfügen
             let _newImg: HTMLElement = document.createElement("img");
             _newImg.setAttribute("src", zimmerpflanzenProdukte[_index].bild);
             _newImg.setAttribute("alt", "Zimmerpflanzen-Produkt");
             _newImg.setAttribute("class", "produktbild");
             document.getElementById("Zimmerpflanzen-produkt" + _index)?.appendChild(_newImg);
-        //Produkt_beschreibung hinzufügen
+        //Produktbeschreibung
             let _newP: HTMLParagraphElement = document.createElement("p");
             _newP.innerHTML = zimmerpflanzenProdukte[_index].beschreibung;
             document.getElementById("Zimmerpflanzen-produkt" + _index)?.appendChild(_newP);
-        // preis hinzufügen
+        //Preis 
             let _newPreis: HTMLHeadingElement = document.createElement("h4");
             _newPreis.innerHTML = zimmerpflanzenProdukte[_index].preis + "€";
             document.getElementById("Zimmerpflanzen-produkt" + _index)?.appendChild(_newPreis);
-        //Button hinzufügen
+        //Button 
             let _newButton: HTMLButtonElement = document.createElement("button");
             _newButton.innerHTML = "kaufen";
             document.getElementById("Zimmerpflanzen-produkt" + _index)?.appendChild(_newButton);
@@ -83,7 +82,6 @@ namespace Außenpflanzen {
         name: string;
         beschreibung: string;
         preis: string;
-
     }
     let oleander: AußenpflanzenProdukte = {
         bild: "Oleander.jpg",
@@ -124,30 +122,30 @@ namespace Außenpflanzen {
     let außenpflanzenProdukte: AußenpflanzenProdukte[] = [oleander, pampagraß, rotbuche, drachenbaum, immergrünesPhontiniaStämmchen, plumbagozierstrauch];
     //Produkte einschleifen
     for (let _index: number = 0; _index < außenpflanzenProdukte.length; _index++) {
-        //Div erzeugen
+        //Div 
             let _newDiv: HTMLDivElement = document.createElement("div");
             _newDiv.setAttribute("class", "Außenpflanzen-div");
             _newDiv.setAttribute("id", "Außenpflanzen-produkt" + _index);
             document.getElementById("Außenpflanzen")?.appendChild(_newDiv);
-         //Produktbezeichnung hinzufügen
+         //Produktname
             let _newH3: HTMLHeadingElement = document.createElement("h3");
             _newH3.innerHTML = außenpflanzenProdukte[_index].name;
             document.getElementById("Außenpflanzen-produkt" + _index)?.appendChild(_newH3);
-        //Produktbild hinzufügen
+        //Bild der Pflanze einfügen
             let _newImg: HTMLElement = document.createElement("img");
             _newImg.setAttribute("src", außenpflanzenProdukte[_index].bild);
             _newImg.setAttribute("alt", "Außenpflanzen-Produkt");
             _newImg.setAttribute("class", "produktbild");
             document.getElementById("Außenpflanzen-produkt" + _index)?.appendChild(_newImg);
-        //Produkt_beschreibung hinzufügen
+        //Produktbeschreibung
             let _newP: HTMLParagraphElement = document.createElement("p");
             _newP.innerHTML = außenpflanzenProdukte[_index].beschreibung;
             document.getElementById("Außenpflanzen-produkt" + _index)?.appendChild(_newP);
-        // preis hinzufügen
+        //Preis 
             let _newPreis: HTMLHeadingElement = document.createElement("h4");
             _newPreis.innerHTML = außenpflanzenProdukte[_index].preis + "€";
             document.getElementById("Außenpflanzen-produkt" + _index)?.appendChild(_newPreis);
-        //Button hinzufügen
+        //Button 
             let _newButton: HTMLButtonElement = document.createElement("button");
             _newButton.innerHTML = "kaufen";
             document.getElementById("Außenpflanzen-produkt" + _index)?.appendChild(_newButton) ; 

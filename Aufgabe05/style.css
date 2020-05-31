@@ -25,38 +25,35 @@
         top: 10px;
         left: 0;  
     } }
-    /* I phone einstellungen für Logo*/
+    /* I Phone Einstellungen für das Logo*/
     @media screen and (max-width: 600px){
         img[alt=logo]{
             text-align: center;
     }   }   
    
-    
     .header i{
     text-align: center;
     }
     
     nav a {
-        float: right;
-        color: rosybrown;
-        text-align: center;
-        text-decoration: none;
-        padding: 8px 30px; 
-       }
+    float: right;
+    color: rosybrown;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 30px; 
+    }
      nav a:hover{
      background-color: gray;
      }
      
      nav a.active{
-         background-color: lightsteelblue;
-         color: white;
-      
+    background-color: lightsteelblue;
+    color: white; 
     }
     .meineprodukte{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        
+        justify-content: space-evenly;   
     }
     .meineprodukte {
         width: 200px;
