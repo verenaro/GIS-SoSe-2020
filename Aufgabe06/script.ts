@@ -143,13 +143,31 @@ namespace Pflanzen {
             }
             let produktezaehler: number = 0;
             let preis: number = 0;
+            //Zahl in Bubble anzeigen
+            let zahlAnzeigen: HTMLParagraphElement = document.createElement("p");
+            //Bubble DIV 
+            let anzahlAnzeigen: HTMLDivElement = document.createElement("div");
+            anzahlAnzeigen.id = "anzahlAnzeigen";
 
             function kaufenButton(_event: Event): void {
-                produktezaehler++;
-                console.log(produktezaehler);
+            produktezaehler++;
+            console.log(produktezaehler);
 
-                preis += parseFloat((<HTMLButtonElement>_event.target)?.getAttribute("preis")!);
-                console.log(preis);
+            preis += parseFloat((<HTMLButtonElement>_event.target)?.getAttribute("preis")!);
+            console.log(preis);
+
+            //Blase erstellen bei min. 1 Artikel
+            if (produktezaehler >= 0) {
+            document.getElementById("artikelBlase")?.appendChild(zahlAnzeigen);
+
+             //Zahl in Blase anzeigen
+            zahlAnzeigen.innerHTML = "" + produktezaehler;
+            document.getElementById("anzahlAnzeigen")?.appendChild(zahlAnzeigen);
+
+        
         }
+
+           
     }
+        }
 }
