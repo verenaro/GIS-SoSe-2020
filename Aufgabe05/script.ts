@@ -5,43 +5,43 @@ namespace Zimmerpflanzen {
         bild: string;
         name: string;
         beschreibung: string;
-        preis: string;
+        preis: number;
     }
     let monstera: ZimmerpflanzenProdukte = {
         bild: "Monstera.jpg",
         name: "Monstera",
         beschreibung: "darf in keinem Wohnzimmer fehlen",
-        preis: "17 "
+        preis: 17 
     };
     let sansevieriaZeylanica: ZimmerpflanzenProdukte = {
         bild: "SansevieriaZeylanica.png",
         name: "Sansevieria Zeylanica",
         beschreibung: "pflegeleicht und schön anzusehen",
-        preis: "24 "
+        preis: 24 
     };
     let spathiphyllum: ZimmerpflanzenProdukte = {
         bild: "Spathiphyllum.jpg",
         name: "Spathiphyllum",
         beschreibung: "blüht wunderschön",
-        preis: "13 "
+        preis: 13 
     };
     let zamioculas: ZimmerpflanzenProdukte = {
         bild: "Zamioculas.jpg",
         name: "Zamioculas",
         beschreibung: "benötigt viel Sonne und Wasser",
-        preis: "19 "
+        preis: 19 
     };
     let dieffenbachia: ZimmerpflanzenProdukte = {
         bild: "Dieffenbachia.jpg",
         name: "Dieffenbachia",
         beschreibung: "suche ihr einen sonnigen Platz",
-        preis: "16,90 "
+        preis: 16.90 
     };
     let strahlenaralie: ZimmerpflanzenProdukte =  {
         bild: "Strahlenaralie.jpg",
         name: "Strahlenaralie",
         beschreibung: "richtiges Jungle-Feeling",
-        preis: "14,30 "
+        preis: 14.30 
     };
     let zimmerpflanzenProdukte: ZimmerpflanzenProdukte[] = [monstera, sansevieriaZeylanica, spathiphyllum, zamioculas, dieffenbachia, strahlenaralie]; 
     //Produkte einschleifen
@@ -81,43 +81,43 @@ namespace Außenpflanzen {
         bild: string;
         name: string;
         beschreibung: string;
-        preis: string;
+        preis: number;
     }
     let oleander: AußenpflanzenProdukte = {
         bild: "Oleander.jpg",
         name: "Oleander",
         beschreibung: "verleiht ihrem Garten einen schönen Farbtupfer",
-        preis: "18 "
+        preis: 18 
     };
     let pampagraß: AußenpflanzenProdukte = {
         bild: "Pampagraß.jpg",
         name: "Pampagraß",
         beschreibung: "ist sehr weich",
-        preis: "15 "
+        preis: 15 
     };
     let rotbuche: AußenpflanzenProdukte = {
         bild: "Rotbuche.jpg",
         name: "Rotbuche",
         beschreibung: "Buche reicht auch",
-        preis: "25 "
+        preis: 25 
     };
     let drachenbaum: AußenpflanzenProdukte = {
         bild: "Drachenbaum.jpg",
         name: "Drachenbaum",
         beschreibung: "ist gefährlich",
-        preis: "23 "
+        preis: 23 
     };
     let immergrünesPhontiniaStämmchen: AußenpflanzenProdukte = {
         bild: "ImmergrünesPhontinia-Stämmchen.jpg",
         name: "Immergrünes Phontinia-Stämmchen",
         beschreibung: "ist immer grün",
-        preis: "30 " 
+        preis: 30  
     };
     let plumbagozierstrauch: AußenpflanzenProdukte =  {
         bild: "ZierstrauchPlumbago.jpg",
         name: "Plumbago Zierstrauch",
         beschreibung: "blüht wunerschön",
-        preis: "14 "
+        preis: 14 
     };
     let außenpflanzenProdukte: AußenpflanzenProdukte[] = [oleander, pampagraß, rotbuche, drachenbaum, immergrünesPhontiniaStämmchen, plumbagozierstrauch];
     //Produkte einschleifen
