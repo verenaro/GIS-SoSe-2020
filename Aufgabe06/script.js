@@ -129,26 +129,26 @@ var Pflanzen;
                 document.getElementById("Pflanzen-produkt" + _index)?.appendChild(_newButton);
                 break;
         }
-        let produktezaehler = 0;
-        let preis = 0;
-        //Zahl in Bubble anzeigen
-        let zahlAnzeigen = document.createElement("p");
-        //Bubble DIV 
-        let anzahlAnzeigen = document.createElement("div");
-        anzahlAnzeigen.id = "anzahlAnzeigen";
-        function kaufenButton(_event) {
-            produktezaehler++;
-            console.log(produktezaehler);
-            preis += parseFloat(_event.target?.getAttribute("preis"));
-            console.log(preis);
-            //Blase erstellen bei min. 1 Artikel
-            if (produktezaehler >= 0) {
-                document.getElementById("artikelBlase")?.appendChild(zahlAnzeigen);
-                //Zahl in Blase anzeigen
-                zahlAnzeigen.innerHTML = "" + produktezaehler;
-                document.getElementById("anzahlAnzeigen")?.appendChild(zahlAnzeigen);
-            }
+    }
+    let produktezaehler = 0;
+    let preis = 0;
+    //Zahl in Bubble anzeigen
+    let zahlAnzeigen = document.createElement("p");
+    //Bubble DIV 
+    let anzahlAnzeigen = document.createElement("div");
+    anzahlAnzeigen.id = "anzahlAnzeigen";
+    function kaufenButton(_event) {
+        produktezaehler++;
+        console.log(produktezaehler);
+        preis += parseFloat(_event.target?.getAttribute("preis"));
+        console.log(preis);
+        //Blase erstellen bei min. 1 Artikel
+        if (produktezaehler >= 0) {
+            document.getElementById("artikelBlase")?.appendChild(anzahlAnzeigen);
         }
+        //Zahl in Blase anzeigen
+        anzahlAnzeigen.innerHTML = "" + produktezaehler;
+        document.getElementById("anzahlAnzeigen")?.appendChild(zahlAnzeigen);
     }
 })(Pflanzen || (Pflanzen = {}));
 //# sourceMappingURL=script.js.map
