@@ -171,10 +171,10 @@ namespace Pflanzen {
          //Ein-/Ausblenden der verschiedenen Produkte
     function handleCategoryClick(this: HTMLDivElement, _click: MouseEvent): void {
             switch (this.getAttribute("id")) {
-            case "zimmerpflanzenbtn":
+            case "zimmerpflanzenbutton":
             zimmerpflanzen();
             break;
-            case "außenpflanzenbtn":
+            case "außenpflanzenbutton":
             außenpflanzen();
             break;
         }
@@ -191,12 +191,12 @@ namespace Pflanzen {
            
         }
     }
-    //Verlinkung zu den Button
-    let zimmerpflanzenButton: HTMLDivElement = <HTMLDivElement>document.querySelector("#zimmerpflanzenbtn");
-    zimmerpflanzenButton.addEventListener("click", handleCategoryClick.bind(zimmerpflanzenButton));
+    //neue Varialbe + Verlinkung zu den Button
+    let zimmerpflanzenAnzeigen: HTMLDivElement = <HTMLDivElement>document.querySelector("#zimmerpflanzenbutton");
+    zimmerpflanzenAnzeigen.addEventListener("click", handleCategoryClick.bind(zimmerpflanzenAnzeigen));
 
-    let außenpflanzenButton: HTMLDivElement = <HTMLDivElement>document.querySelector("#außenpflanzenbtn");
-    außenpflanzenButton.addEventListener("click", handleCategoryClick.bind(außenpflanzenButton));
+    let außenpflanzenAnzeigen: HTMLDivElement = <HTMLDivElement>document.querySelector("#außenpflanzenbutton");
+    außenpflanzenAnzeigen.addEventListener("click", handleCategoryClick.bind(außenpflanzenAnzeigen));
            
     }
 

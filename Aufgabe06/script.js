@@ -153,10 +153,10 @@ var Pflanzen;
     //Ein-/Ausblenden der verschiedenen Produkte
     function handleCategoryClick(_click) {
         switch (this.getAttribute("id")) {
-            case "zimmerpflanzenbtn":
+            case "zimmerpflanzenbutton":
                 zimmerpflanzen();
                 break;
-            case "außenpflanzenbtn":
+            case "außenpflanzenbutton":
                 außenpflanzen();
                 break;
         }
@@ -169,10 +169,10 @@ var Pflanzen;
             document.getElementById("zimmerpflanzen").style.display = "none";
         }
     }
-    //Verlinkung zu den Button
-    let zimmerpflanzenButton = document.querySelector("#zimmerpflanzenbtn");
-    zimmerpflanzenButton.addEventListener("click", handleCategoryClick.bind(zimmerpflanzenButton));
-    let außenpflanzenButton = document.querySelector("#außenpflanzenbtn");
-    außenpflanzenButton.addEventListener("click", handleCategoryClick.bind(außenpflanzenButton));
+    //neue Varialbe + Verlinkung zu den Button
+    let zimmerpflanzenAnzeigen = document.querySelector("#zimmerpflanzenbutton");
+    zimmerpflanzenAnzeigen.addEventListener("click", handleCategoryClick.bind(zimmerpflanzenAnzeigen));
+    let außenpflanzenAnzeigen = document.querySelector("#außenpflanzenbutton");
+    außenpflanzenAnzeigen.addEventListener("click", handleCategoryClick.bind(außenpflanzenAnzeigen));
 })(Pflanzen || (Pflanzen = {}));
 //# sourceMappingURL=script.js.map
