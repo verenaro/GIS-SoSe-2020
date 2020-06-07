@@ -142,13 +142,37 @@ var Pflanzen;
         console.log(produktezaehler);
         preis += parseFloat(_event.target?.getAttribute("preis"));
         console.log(preis);
-        //Blase erstellen bei min. 1 Artikel
+        //Zahl anzeigen bei hinzufuegen eines Artikels
         if (produktezaehler >= 0) {
             document.getElementById("artikelBlase")?.appendChild(anzahlAnzeigen);
         }
-        //Zahl in Blase anzeigen
+        //Zahl anzeigen
         anzahlAnzeigen.innerHTML = "" + produktezaehler;
         document.getElementById("anzahlAnzeigen")?.appendChild(zahlAnzeigen);
     }
+    //Ein-/Ausblenden der verschiedenen Produkte
+    function handleCategoryClick(_click) {
+        switch (this.getAttribute("id")) {
+            case "zimmerpflanzenbtn":
+                zimmerpflanzen();
+                break;
+            case "außenpflanzenbtn":
+                außenpflanzen();
+                break;
+        }
+        function zimmerpflanzen() {
+            document.getElementById("zimmerpflanzen").style.display = "inline-grid";
+            document.getElementById("außenpflanzen").style.display = "none";
+        }
+        function außenpflanzen() {
+            document.getElementById("außenpflanzen").style.display = "inline-grid";
+            document.getElementById("zimmerpflanzen").style.display = "none";
+        }
+    }
+    //Verlinkung zu den Button
+    let zimmerpflanzenButton = document.querySelector("#zimmerpflanzenbtn");
+    zimmerpflanzenButton.addEventListener("click", handleCategoryClick.bind(zimmerpflanzenButton));
+    let außenpflanzenButton = document.querySelector("#außenpflanzenbtn");
+    außenpflanzenButton.addEventListener("click", handleCategoryClick.bind(außenpflanzenButton));
 })(Pflanzen || (Pflanzen = {}));
 //# sourceMappingURL=script.js.map

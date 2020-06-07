@@ -158,17 +158,45 @@ namespace Pflanzen {
                 preis += parseFloat((<HTMLButtonElement>_event.target)?.getAttribute("preis")!);
                 console.log(preis);
 
-              //Blase erstellen bei min. 1 Artikel
+              //Zahl anzeigen bei hinzufuegen eines Artikels
                 if (produktezaehler >= 0) {
                 document.getElementById("artikelBlase")?.appendChild(anzahlAnzeigen);
                 }
-             //Zahl in Blase anzeigen
+             //Zahl anzeigen
                 anzahlAnzeigen.innerHTML = "" + produktezaehler;
                 document.getElementById("anzahlAnzeigen")?.appendChild(zahlAnzeigen);
 
         
         }
+         //Ein-/Ausblenden der verschiedenen Produkte
+    function handleCategoryClick(this: HTMLDivElement, _click: MouseEvent): void {
+            switch (this.getAttribute("id")) {
+            case "zimmerpflanzenbtn":
+            zimmerpflanzen();
+            break;
+            case "außenpflanzenbtn":
+            außenpflanzen();
+            break;
+        }
+    
+            function zimmerpflanzen(): void {
+            (<HTMLElement>document.getElementById("zimmerpflanzen")).style.display = "inline-grid";
+            (<HTMLElement>document.getElementById("außenpflanzen")).style.display = "none";
+    
+        }
 
+            function außenpflanzen(): void {
+            (<HTMLElement>document.getElementById("außenpflanzen")).style.display = "inline-grid";
+            (<HTMLElement>document.getElementById("zimmerpflanzen")).style.display = "none";
+           
+        }
+    }
+    //Verlinkung zu den Button
+    let zimmerpflanzenButton: HTMLDivElement = <HTMLDivElement>document.querySelector("#zimmerpflanzenbtn");
+    zimmerpflanzenButton.addEventListener("click", handleCategoryClick.bind(zimmerpflanzenButton));
+
+    let außenpflanzenButton: HTMLDivElement = <HTMLDivElement>document.querySelector("#außenpflanzenbtn");
+    außenpflanzenButton.addEventListener("click", handleCategoryClick.bind(außenpflanzenButton));
            
     }
-        
+
