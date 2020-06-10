@@ -1,0 +1,86 @@
+[
+    {
+        "bild": "Monstera.jpg",
+        "name": "Monstera",
+        "beschreibung": "darf in keinem Wohnzimmer fehlen",
+        "preis": 17.25,
+        "kategorie": "zimmerpflanzen"
+    },
+    {
+        "bild": "SansevieriaZeylanica.png",
+        "name": "Sansevieria Zeylanica",
+        "beschreibung": "pflegeleicht und schön anzusehen",
+        "preis": 24,
+        "kategorie": "zimmerpflanzen"
+    },
+    {
+        "bild": "Spathiphyllum.jpg",
+        "name": "Spathiphyllum",
+        "beschreibung": "blüht wunderschön",
+        "preis": 13,
+        "kategorie": "zimmerpflanzen"
+    },
+    {
+        "bild": "Zamioculas.jpg",
+        "name": "Zamioculas",
+        "beschreibung": "benötigt viel Sonne und Wasser",
+        "preis": 19,
+        "kategorie": "zimmerpflanzen"
+    },
+    {
+        "bild": "Dieffenbachia.jpg",
+        "name": "Dieffenbachia",
+        "beschreibung": "suche ihr einen sonnigen Platz",
+        "preis": 16.99,
+        "kategorie": "zimmerpflanzen"
+    },
+    {
+        "bild": "Strahlenaralie.jpg",
+        "name": "Strahlenaralie",
+        "beschreibung": "richtiges Jungle-Feeling",
+        "preis": 14.35,
+        "kategorie": "zimmerpflanzen"
+    },
+    {
+        "bild": "Oleander.jpg",
+        "name": "Oleander",
+        "beschreibung": "verleiht ihrem Garten einen schönen Farbtupfer",
+        "preis": 18,
+        "kategorie": "außenpflanzen"
+    },
+    {
+        "bild": "Pampagraß.jpg",
+        "name": "Pampagraß",
+        "beschreibung": "ist sehr weich",
+        "preis": 15,
+        "kategorie": "außenpflanzen"
+    },
+    {
+        "bild": "Rotbuche.jpg",
+        "name": "Rotbuche",
+        "beschreibung": "Buche reicht auch",
+        "preis": 25,
+        "kategorie": "außenpflanzen"
+    },
+    {
+        "bild": "Drachenbaum.jpg",
+        "name": "Drachenbaum",
+        "beschreibung": "ist gefährlich",
+        "preis": 23,
+        "kategorie": "außenpflanzen"
+    },
+    {
+        "bild": "ImmergrünesPhontinia-Stämmchen.jpg",
+        "name": "Immergrünes Phontinia-Stämmchen",
+        "beschreibung": "ist immer grün",
+        "preis": 30,
+        "kategorie": "außenpflanzen"
+    },
+    {
+        "bild": "ZierstrauchPlumbago.jpg",
+        "name": "Plumbago Zierstrauch",
+        "beschreibung": "blüht wunerschön",
+        "preis": 14,
+        "kategorie": "außenpflanzen"
+    }
+]
