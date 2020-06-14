@@ -2,7 +2,7 @@
     {
         "bild": "Monstera.jpg",
         "name": "Monstera",
-        "beschreibung": "darf in keinem Wohnzimmer fehlen",
+        "_beschreibung": "darf in keinem Wohnzimmer fehlen",
         "preis": 17.25,
         "kategorie": "zimmerpflanzen"
     },

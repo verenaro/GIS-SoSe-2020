@@ -71,13 +71,6 @@ function setGesamtpreis(): void {
     pGesamtpreis.innerHTML = "" + gesamtPreis;
 }
 
-/*
-    function removeAll(): void {
-        let remButton: HTMLDListElement = (<HTMLDListElement>document.getElementById("liRemoveAll"));
-        remButton.addEventListener("click", handleRemoveAll);
-    }
-*/
-
 function handleRemoveAll(_event: Event): void {
    localStorage.clear();
    update();

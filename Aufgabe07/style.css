@@ -18,6 +18,9 @@
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
+    .produktliste{
+        text-align: center;
+    }
     /*Alle anderen größen sollen dies Anzeigen*/
     @media screen and (min-width: 601px){
     img[alt=logo]{

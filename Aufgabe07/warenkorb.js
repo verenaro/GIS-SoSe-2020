@@ -58,12 +58,6 @@ var Pflanzen;
     function setGesamtpreis() {
         pGesamtpreis.innerHTML = "" + gesamtPreis;
     }
-    /*
-        function removeAll(): void {
-            let remButton: HTMLDListElement = (<HTMLDListElement>document.getElementById("liRemoveAll"));
-            remButton.addEventListener("click", handleRemoveAll);
-        }
-    */
     function handleRemoveAll(_event) {
         localStorage.clear();
         update();

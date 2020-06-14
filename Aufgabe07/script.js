@@ -55,7 +55,7 @@ var Pflanzen;
             //Button 
             let _newButton = document.createElement("button");
             _newButton.innerHTML = "kaufen";
-            _newButton.addEventListener("click", kaufenButton);
+            _newButton.addEventListener("click", kaufenButton.bind(articles[_index]));
             _newButton.setAttribute("preis", articles[_index].preis.toString());
             document.getElementById("Pflanzen-produkt" + _index)?.appendChild(_newButton);
             //"Button" in Warenkorb
@@ -100,19 +100,19 @@ function handleCategoryClick(_click) {
             außenpflanzen();
             break;
     }
+    function zimmerpflanzen() {
+        document.getElementById("zimmerpflanzen").style.display = "inline-grid";
+        document.getElementById("außenpflanzen").style.display = "none";
+    }
+    function außenpflanzen() {
+        document.getElementById("außenpflanzen").style.display = "inline-grid";
+        document.getElementById("zimmerpflanzen").style.display = "none";
+    }
+    //neue Varialbe + Verlinkung zu den Button
+    let zimmerpflanzenAnzeigen = document.querySelector("#zimmerpflanzenbutton");
+    console.log(zimmerpflanzenAnzeigen);
+    zimmerpflanzenAnzeigen.addEventListener("click", handleCategoryClick.bind(zimmerpflanzenAnzeigen));
+    let außenpflanzenAnzeigen = document.querySelector("#außenpflanzenbutton");
+    außenpflanzenAnzeigen.addEventListener("click", handleCategoryClick.bind(außenpflanzenAnzeigen));
 }
-function zimmerpflanzen() {
-    document.getElementById("zimmerpflanzen").style.display = "inline-grid";
-    document.getElementById("außenpflanzen").style.display = "none";
-}
-function außenpflanzen() {
-    document.getElementById("außenpflanzen").style.display = "inline-grid";
-    document.getElementById("zimmerpflanzen").style.display = "none";
-}
-//neue Varialbe + Verlinkung zu den Button
-let zimmerpflanzenAnzeigen = document.querySelector("#zimmerpflanzenbutton");
-console.log(zimmerpflanzenAnzeigen);
-zimmerpflanzenAnzeigen.addEventListener("click", handleCategoryClick.bind(zimmerpflanzenAnzeigen));
-let außenpflanzenAnzeigen = document.querySelector("#außenpflanzenbutton");
-außenpflanzenAnzeigen.addEventListener("click", handleCategoryClick.bind(außenpflanzenAnzeigen));
 //# sourceMappingURL=script.js.map

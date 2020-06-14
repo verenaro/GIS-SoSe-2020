@@ -74,7 +74,7 @@ namespace Pflanzen {
             //Button 
             let _newButton: HTMLButtonElement = document.createElement("button");
             _newButton.innerHTML = "kaufen";
-            _newButton.addEventListener("click", kaufenButton);
+            _newButton.addEventListener("click", kaufenButton.bind(articles[_index]));
             _newButton.setAttribute("preis", articles[_index].preis.toString());
             document.getElementById("Pflanzen-produkt" + _index)?.appendChild(_newButton);
 
@@ -101,8 +101,6 @@ namespace Pflanzen {
             }
         }
     }
-       
-
 
     function kaufenButton(this: Pflanzenprodukte, _event: Event): void {
             produktezaehler++;
@@ -136,29 +134,29 @@ function handleCategoryClick(this: HTMLDivElement, _click: MouseEvent): void {
                     außenpflanzen();
                     break;
             }
-        }
+        
 
-function zimmerpflanzen(): void {
+            function zimmerpflanzen(): void {
                 (<HTMLElement>document.getElementById("zimmerpflanzen")).style.display = "inline-grid";
                 (<HTMLElement>document.getElementById("außenpflanzen")).style.display = "none";
 
             }
 
-function außenpflanzen(): void {
+            function außenpflanzen(): void {
                 (<HTMLElement>document.getElementById("außenpflanzen")).style.display = "inline-grid";
                 (<HTMLElement>document.getElementById("zimmerpflanzen")).style.display = "none";
 
             }
-    //neue Varialbe + Verlinkung zu den Button
-let zimmerpflanzenAnzeigen: HTMLDivElement = <HTMLDivElement>document.querySelector("#zimmerpflanzenbutton");
-console.log(zimmerpflanzenAnzeigen);
-zimmerpflanzenAnzeigen.addEventListener("click", handleCategoryClick.bind(zimmerpflanzenAnzeigen));
+//neue Varialbe + Verlinkung zu den Button
+            let zimmerpflanzenAnzeigen: HTMLDivElement = <HTMLDivElement>document.querySelector("#zimmerpflanzenbutton");
+            console.log(zimmerpflanzenAnzeigen);
+            zimmerpflanzenAnzeigen.addEventListener("click", handleCategoryClick.bind(zimmerpflanzenAnzeigen));
 
-let außenpflanzenAnzeigen: HTMLDivElement = <HTMLDivElement>document.querySelector("#außenpflanzenbutton");
-außenpflanzenAnzeigen.addEventListener("click", handleCategoryClick.bind(außenpflanzenAnzeigen));
+            let außenpflanzenAnzeigen: HTMLDivElement = <HTMLDivElement>document.querySelector("#außenpflanzenbutton");
+            außenpflanzenAnzeigen.addEventListener("click", handleCategoryClick.bind(außenpflanzenAnzeigen));
 
         
     
 
     
-
+        }
