@@ -1,0 +1,21 @@
+{
+  "name": "gisssvr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start": "node Aufgabe08/Aufgabe08.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verenaro/GIS-SoSe-2020.git"
+  },
+  "author": "verena rothweiler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verenaro/GIS-SoSe-2020/issues"
+  },
+  "homepage": "https://github.com/verenaro/GIS-SoSe-2020#readme"
+}
