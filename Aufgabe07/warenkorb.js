@@ -5,10 +5,12 @@ var Pflanzen;
     let contentDiv;
     let pGesamtpreis;
     let gesamtPreis;
+    let allesLöschen;
     function init(_event) {
         contentDiv = document.querySelector("#produktliste");
         pGesamtpreis = document.querySelector("#gesamtpreis");
-        pGesamtpreis.addEventListener("click", handleRemoveAll);
+        allesLöschen = document.querySelector("#allesLöschen");
+        allesLöschen.addEventListener("click", handleRemoveAll);
         document.getElementById("warenkorbWert")?.appendChild(pGesamtpreis);
         console.log(localStorage);
         update();
@@ -56,7 +58,7 @@ var Pflanzen;
         update();
     }
     function setGesamtpreis() {
-        pGesamtpreis.innerHTML = "" + gesamtPreis;
+        pGesamtpreis.innerHTML = "" + gesamtPreis.toFixed(2) + "€";
     }
     function handleRemoveAll(_event) {
         localStorage.clear();

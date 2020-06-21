@@ -5,11 +5,13 @@ window.addEventListener("load", init);
 let contentDiv: HTMLDivElement;
 let pGesamtpreis: HTMLParagraphElement;
 let gesamtPreis: number;
+let allesLöschen: HTMLParagraphElement;
 
 function init(_event: Event): void {
     contentDiv = <HTMLDivElement>document.querySelector("#produktliste");
     pGesamtpreis = <HTMLParagraphElement>document.querySelector("#gesamtpreis");
-    pGesamtpreis.addEventListener("click", handleRemoveAll);
+    allesLöschen = <HTMLParagraphElement>document.querySelector("#allesLöschen");
+    allesLöschen.addEventListener("click", handleRemoveAll);
     document.getElementById("warenkorbWert")?.appendChild(pGesamtpreis);
 
     console.log(localStorage);
@@ -68,7 +70,7 @@ function handleRemoveArticle(this: Pflanzenprodukte, _event: Event): void {
 }
 
 function setGesamtpreis(): void {
-    pGesamtpreis.innerHTML = "" + gesamtPreis;
+    pGesamtpreis.innerHTML = "" + gesamtPreis.toFixed(2) + "€";
 }
 
 function handleRemoveAll(_event: Event): void {
