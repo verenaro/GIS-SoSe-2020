@@ -7,7 +7,7 @@ var Aufgabe092;
     buttonhtml.addEventListener("click", handlehtml);
     async function handlehtml() {
         let formData = new FormData(document.forms[0]);
-        let url = "http://localhost:8100";
+        let url = "https://gis2020vr.herokuapp.com";
         url += "/html";
         let query = new URLSearchParams(formData);
         url = url += "?" + query.toString();
@@ -18,7 +18,7 @@ var Aufgabe092;
     }
     async function handlejson() {
         let formData = new FormData(document.forms[0]);
-        let url = "http://localhost:8100";
+        let url = "https://gis2020vr.herokuapp.com";
         url += "/json";
         let query = new URLSearchParams(formData);
         url = url += "?" + query.toString();
