@@ -32,7 +32,7 @@ export namespace A08Server {
       _response.write(jsonString);
     }
 
-    _response.write("hallo");
+    _response.write("Antwort");
 
     _response.end();
   }

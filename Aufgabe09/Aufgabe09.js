@@ -28,7 +28,7 @@ var A08Server;
             let jsonString = JSON.stringify(url.query);
             _response.write(jsonString);
         }
-        _response.write("hallo");
+        _response.write("Antwort");
         _response.end();
     }
 })(A08Server = exports.A08Server || (exports.A08Server = {}));
