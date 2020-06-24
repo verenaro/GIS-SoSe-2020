@@ -5,6 +5,7 @@ var Aufgabe092;
     buttonjson.addEventListener("click", handlejson);
     let buttonhtml = document.getElementById("htmlbutton");
     buttonhtml.addEventListener("click", handlehtml);
+    let server = document.getElementById("server");
     async function handlehtml() {
         let formData = new FormData(document.forms[0]);
         let url = "https://gis2020vr.herokuapp.com";
@@ -27,6 +28,7 @@ var Aufgabe092;
         let responseJSON = JSON.parse(responseText);
         console.log(responseJSON);
         console.log(responseText);
+        server.innerHTML = responseText;
     }
 })(Aufgabe092 || (Aufgabe092 = {}));
 //# sourceMappingURL=Aufgabe092.js.map

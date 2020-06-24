@@ -5,6 +5,8 @@ namespace Aufgabe092 {
     let buttonhtml: HTMLButtonElement = <HTMLButtonElement>document.getElementById("htmlbutton");
     buttonhtml.addEventListener("click", handlehtml);
 
+    let server: HTMLElement = <HTMLElement>document.getElementById("server");
+
 
     async function handlehtml(): Promise<void> {
         let formData: FormData = new FormData(document.forms[0]);
@@ -29,6 +31,7 @@ namespace Aufgabe092 {
         let responseJSON: JSON = JSON.parse(responseText);
         console.log(responseJSON);
         console.log(responseText);
+        server.innerHTML = responseText;
 
          
         }
