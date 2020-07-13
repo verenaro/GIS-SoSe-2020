@@ -1,0 +1,92 @@
+[
+    {
+        "bild": "Vanille-Kirsch.jpg",
+        "name": "Vanille Kirsch",
+        "preis": 1.00,
+        "kategorie": "eissorten"
+    },
+    {
+        "bild": "Erdbeere.jpg",
+        "name": "Erdbeere",
+        "preis": 1.00,
+        "kategorie": "eissorten"
+    },
+    {
+        "bild": "Schokolade-Erdbeerstreusel.jpg",
+        "name": "Schokolade mit Erdbeerstreuseln",
+        "preis": 1.00,
+        "kategorie": "eissorten"
+    },
+    {
+        "bild": "Banane-Kirsche.jpg",
+        "name": "Banane Kirsche",
+        "preis": 1.00,
+        "kategorie": "eissorten"
+    },
+    {
+        "bild": "Minze-Schokostreusel.jpg",
+        "name": "Minze mit Schokostreuseln",
+        "preis": 1.00,
+        "kategorie": "eissorten"
+    },
+    {
+        "bild": "Schoko-Marshmallow.jpg",
+        "name": "Schokolade mit Marshmallow",
+        "preis": 1.00,
+        "kategorie": "eissorten"
+    },
+    {
+        "bild": "waffel.jpg",
+        "name": "Waffel",
+        "preis": 1.50,
+        "kategorie": "behälter"
+    },
+    {
+        "bild": "b-6.jpg",
+        "name": "Becher aus Pappe",
+        "preis": 1.50,
+        "kategorie": "behälter"
+    },
+    {
+        "bild": "eisbecherglaß.jpg",
+        "name": "Becher aus Glaß",
+        "preis": 2.00,
+        "kategorie": "behälter"
+    },
+    {
+        "bild": "Blaubeeren.jpg",
+        "name": "Blaubeeren",
+        "preis": 0.50,
+        "kategorie": "topping"
+    },
+    {
+        "bild": "Mango.jpg",
+        "name": "Mango",
+        "preis": 0.50,
+        "kategorie": "topping"
+    },
+    {
+        "bild": "Oreo.jpg",
+        "name": "Oreo",
+        "preis": 0.50,
+        "kategorie": "topping"
+    },
+    {
+        "bild": "Schokolade.jpg",
+        "name": "Schokolade",
+        "preis": 0.50,
+        "kategorie": "topping"
+    },
+    {
+        "bild": "Streusel.jpg",
+        "name": "Streusel",
+        "preis": 0.50,
+        "kategorie": "topping"
+    },
+    {
+        "bild": "Erbeeren.jpg",
+        "name": "Erdbeeren",
+        "preis": 0.50,
+        "kategorie": "topping"
+    }
+]

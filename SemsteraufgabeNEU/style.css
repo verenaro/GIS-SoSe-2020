@@ -1,0 +1,138 @@
+
+    .header{
+        padding: 60px;
+        background:whitesmoke;
+        color:lightgray;
+        font-size: 20px;
+        width: auto;
+    }
+    .header h1{
+        color: palevioletred;
+        text-align:center;
+        margin-right: auto;
+    } 
+    .header h2{
+        color:grey;
+        text-align: center;
+        margin-right: auto;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    body{
+        text-align: center;
+        }
+    #allesLöschen{
+        border-color: rosybrown;
+    }
+    #poduktliste div img{
+    height: 200px;
+    width: 200px;
+    }
+
+    /*Alle anderen größen sollen dies Anzeigen*/
+    @media screen and (min-width: 601px){
+    img[alt=logo]{
+        position: absolute;
+        top: 10px;
+        left: 0;  
+        height: 100px;
+        width: 100px;
+    } }
+    /* I Phone Einstellungen für das Logo*/
+    @media screen and (max-width: 600px){
+        img[alt=logo]{
+            text-align: center;
+    }   }   
+   
+    .header i{
+    text-align: center;
+    }
+    
+    nav a {
+    float: right;
+    color: palevioletred;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 30px; 
+    }
+     nav a:hover{
+     background-color:lightblue;
+     }
+     
+     nav a.active{
+    background-color: grey;
+    color: palevioletred; 
+    }
+    .meineprodukte{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;   
+    }
+    .meineprodukte {
+        width: 200px;
+        height: 200px;
+        margin: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+        border-radius: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .meineprodukte div img{
+       height: 200px;
+       width: 200px;
+    }
+    .meineprodukte div p{
+        color:grey;
+    }
+    .meineprodukte div h3{
+        color: lightgrey;
+    }
+    .meineprodukte div h4{
+        color: grey;
+    }
+    div>button{
+        border-color: palevioletred;
+    }
+    .meineprodukte h1{
+        color:palevioletred;
+        text-align: center;
+    }
+    i{
+        color: black;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    body{
+        background-color: white;
+    }
+
+    #behälter, #eissorten, #topping {
+    margin-top: 0;
+    display: inline-block;
+    width: auto;
+
+    }
+    .Produkte-div{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    grid-template-columns: auto auto auto auto;
+    width: auto;
+}
+    #anzahlAnzeigen{
+    background-color: rgb(102, 102, 102);
+    
+    border-radius: 10%;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: -15px;
+}
+
+
+    
